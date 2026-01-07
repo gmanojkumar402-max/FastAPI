@@ -4,7 +4,7 @@ from typing import Dict, Any
 
 # Load once when this module is imported (good for APIs)
 model = joblib.load("linearregression.joblib")
-print("✅ Loaded the saved model")
+print("Loaded the saved model")
 
 FEATURE_ORDER = [
     "longitude",
